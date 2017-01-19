@@ -1,12 +1,13 @@
 /*
  MIT License http://www.opensource.org/licenses/mit-license.php
  Based on the Webpack core BannerPLugin by Tobias Koppers @sokra
+ and smart-banner-webpack-plugin by @johvin
  */
 
 "use strict";
 
 const ConcatSource = require("webpack-sources").ConcatSource;
-const ModuleFilenameHelpers = require("./ModuleFilenameHelpers");
+const ModuleFilenameHelpers = require("webpack/lib/ModuleFilenameHelpers");
 
 function wrapComment(str) {
 	if(!str.includes("\n")) return `/*! ${str} */`;
