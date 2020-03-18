@@ -24,6 +24,6 @@
   "license": "MIT",
   "dependencies": {
     "webpack": "^1.14.0",
-    "webpack-sources": "^0.1.4"
+    "webpack-sources": "^0.2.3"
   }
 }
