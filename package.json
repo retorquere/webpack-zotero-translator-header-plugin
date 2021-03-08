@@ -23,7 +23,7 @@
   "author": "Josh Farneman <josh@farneman.net>",
   "license": "MIT",
   "dependencies": {
-    "webpack": "^1.14.0",
+    "webpack": "^2.2.0",
     "webpack-sources": "^0.1.4"
   }
 }
